@@ -1,0 +1,107 @@
+body{
+background-color: #005b1b;
+grid-template-columns: 60% 40%;
+grid-template-rows: 65% 35% auto;
+font-family: 'Bree Serif', serif;
+
+}
+
+.Wrapper{
+  display: grid;
+  grid-template-columns: 65% 35% auto;
+
+}
+.informationen{
+
+}
+
+.email{
+  padding: 5% 5% 5% 5%;
+  margin-left: 2%;
+  margin-bottom: 5%;
+  margin-top: 10%;
+
+
+}
+.email2{
+  padding: 5% 5% 5% 5%;
+  margin-left: 6%;
+  margin-bottom: 5%;
+  margin-top: 10%;
+}
+  .email3{
+    padding: 5% 5% 5% 5%;
+    margin-left: 2%;
+    margin-bottom: 5%;
+    margin-top: 10%;
+
+}
+
+
+
+.Wrapper > div{
+  padding-top:5%;
+  padding-left: 2%;
+  background-color:#005b1b;
+
+}
+.bild{
+  width: 90%
+
+}
+
+.bild1{
+  grid-column-start: 1;
+  grid-column-end: 2;
+  width: 90%;
+  padding-right: 3%;
+}
+.bild12{
+  grid-column-start: 1;
+  grid-column-end: 2;
+  width: 90%;
+
+}
+
+
+.links a{
+  background-color:#498c10;
+  padding: 3%;
+  color: black;
+  text-transform: uppercase;
+
+
+}
+.links{
+  background-color:#498c10;
+  padding: 3%;
+  width: 93%;
+  clear: both;
+}
+
+.under{
+  padding: 3% 0% 3%;
+  background-color: #498c10;
+  font-size: 25px;
+
+}
+
+.links a:hover
+{
+background-color:#005b1b;
+}
+
+.bil122{
+width: 60%;
+height: auto;
+}
+
+
+
+
+.karta {
+  max-height: 200px;
+  min-height: 500px;
+height: 500px;
+width: 100%;
+}
